@@ -1,0 +1,27 @@
+{
+  "name": "slashbot-example",
+  "version": "1.0.0",
+  "description": "An example slashbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesseditson/slashbot-example.git"
+  },
+  "keywords": [
+    "slashbot",
+    "slack",
+    "bot"
+  ],
+  "dependencies": {
+    "slashbot": "0.1.0"
+  },
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseditson/slashbot-example/issues"
+  },
+  "homepage": "https://github.com/jesseditson/slashbot-example"
+}

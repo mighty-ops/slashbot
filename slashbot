@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var slashbot = require('slashbot')
+
+slashbot({
+  name : 'slashbot',
+  port : 3000,
+  responders : [
+    './responders/shout'
+  ]
+},function(err){
+  if(err) throw err
+  // your bot is now started.
+})
