@@ -4,7 +4,6 @@ var slashbot = require('slashbot')
 
 slashbot({
   name : 'slashbot',
-  port : 3000,
   responders : [
     './responders/shout'
   ]
