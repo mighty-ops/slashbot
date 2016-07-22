@@ -1,5 +1,7 @@
 var lmgtfy = function(message,callback) {
     var query = encodeURIComponent(message)
+    var query2 = query.replace("%20", "+")
+    var query3 = query2.replace("how+do+i", "")
     var link = 'https://www.google.com/search?site=\&source=hp\&q=' + query + "\&oq=" + query + "\&gs_1"
     callback(null,'LMGTFY: ' + link)
 }
