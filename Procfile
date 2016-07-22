@@ -1,1 +1,1 @@
-worker: ./slashbot
+web: ./slashbot
