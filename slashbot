@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 
-var slashbot = require('slashbot')
+var slashbot = require('slashbot');
+
+app.set('port', (process.env.PORT || 5000));
 
 slashbot({
   name : 'slashbot',
   responders : [
     './responders/shout',
     './responders/lmgtfy'
-  ],
-  port : 'process.env.PORT'
+  ]
 },function(err){
   if(err) throw err
   // your bot is now started.
