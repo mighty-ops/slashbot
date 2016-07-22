@@ -2,7 +2,7 @@
 
 var slashbot = require('slashbot');
 
-app.set('port', (process.env.PORT || 5000));
+slashbot.set('port', (process.env.PORT || 3000));
 
 slashbot({
   name : 'slashbot',
