@@ -2,14 +2,13 @@
 
 var slashbot = require('slashbot');
 
-slashbot.set('port', (process.env.PORT || 3000));
-
 slashbot({
   name : 'slashbot',
   responders : [
     './responders/shout',
     './responders/lmgtfy'
-  ]
+  ],
+  port : (process.env.PORT || 3000)
 },function(err){
   if(err) throw err
   // your bot is now started.
