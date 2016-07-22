@@ -1,1 +1,1 @@
-web: ./slashbot
+web: node ./slashbot
